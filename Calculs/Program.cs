@@ -35,6 +35,7 @@ namespace Calculs
                     // traitement des choix
                     if (choix != 0)
                     {
+                        // création de valeurs aléatoire pour les calculs
                         val1 = rand.Next(1, 10);
                         val2 = rand.Next(1, 10);
                         if (choix == 1)
